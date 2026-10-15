@@ -1,0 +1,7 @@
+{
+ "id": "bold-greedy",
+ "primary": "app/markup.py::bold_text",
+ "second": "app/links.py::first_link",
+ "cannot_fail": null,
+ "trap": null
+}

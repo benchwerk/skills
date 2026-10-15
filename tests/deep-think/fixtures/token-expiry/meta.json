@@ -1,0 +1,7 @@
+{
+ "id": "token-expiry",
+ "primary": "app/tokens.py::is_expired",
+ "second": "app/sessions.py::seconds_left",
+ "cannot_fail": null,
+ "trap": "datetime.now() is naive; fromisoformat of a string with an offset is aware"
+}

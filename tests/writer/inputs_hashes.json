@@ -1,0 +1,8 @@
+{
+ "tests/writer/part19_tasks.json": "30d0d40eafa34c71066aaa18f1c4b4e0b17c18d6691d2b21939e2469d67eb937",
+ "tests/writer/prediction_part19.md": "f6d459dc9b9b1f4c9cc85741336f93af1aa1b82c10db7c74e31d238276317fb5",
+ "tests/writer/run_part19.py": "46b53d5afd5a9d58294819e958c043ed6be2396512078fe23835ee5857b05da6",
+ "skill-writer/scripts/skill_audit.py": "8cdf1cdd3c8aff6fed3646609cff6f91bc0755edf28c3da20f260f134a875ef8",
+ "skill-writer/SKILL.md": "6efb5f92b606c7a018540a551fd3ec5df385c886348406fe81fb0f434bc1b7ab",
+ "tests/manage/manage_common.py": "aac579002d53b0c269bdb47971b499d57d47a090d4f0f3bc1e4b46960aa0abfb"
+}

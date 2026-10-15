@@ -1,0 +1,7 @@
+{
+ "id": "invoice-settled",
+ "primary": "app/billing.py::is_settled",
+ "second": "app/refunds.py::fully_refunded",
+ "cannot_fail": null,
+ "trap": null
+}

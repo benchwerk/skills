@@ -1,0 +1,17 @@
+{
+ "claude_code": "2.1.284",
+ "model": "claude-sonnet-5-5[1m]",
+ "first_request_tokens": {
+  "empty": 18931,
+  "one": 19007,
+  "suite": 20096,
+  "manual": 18931,
+  "invoked": 19441
+ },
+ "added": {
+  "one_skill_listing": 76,
+  "suite_listing": 1165,
+  "manual_only": 0,
+  "invocation_over_listing": 434
+ }
+}

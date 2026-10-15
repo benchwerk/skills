@@ -1,0 +1,275 @@
+{
+ "arms": {
+  "plain": {
+   "skills_found": "10/10",
+   "recall_task": {
+    "k": 20,
+    "n": 20,
+    "pct": 100.0,
+    "ci": [
+     83.9,
+     100
+    ]
+   },
+   "recall_process": {
+    "k": 9,
+    "n": 20,
+    "pct": 45.0,
+    "ci": [
+     25.8,
+     65.8
+    ]
+   },
+   "false_trigger": {
+    "k": 0,
+    "n": 40,
+    "pct": 0.0,
+    "ci": [
+     0,
+     8.8
+    ]
+   },
+   "median_desc_chars": 247.5,
+   "audit_errors_mean": 0,
+   "audit_warns_mean": 0.3,
+   "mean_output_tokens": 1876
+  },
+  "creator": {
+   "skills_found": "10/10",
+   "recall_task": {
+    "k": 19,
+    "n": 20,
+    "pct": 95.0,
+    "ci": [
+     76.4,
+     99.1
+    ]
+   },
+   "recall_process": {
+    "k": 8,
+    "n": 20,
+    "pct": 40.0,
+    "ci": [
+     21.9,
+     61.3
+    ]
+   },
+   "false_trigger": {
+    "k": 0,
+    "n": 40,
+    "pct": 0.0,
+    "ci": [
+     0,
+     8.8
+    ]
+   },
+   "median_desc_chars": 278.0,
+   "audit_errors_mean": 0,
+   "audit_warns_mean": 0.3,
+   "mean_output_tokens": 1886
+  },
+  "writer": {
+   "skills_found": "10/10",
+   "recall_task": {
+    "k": 20,
+    "n": 20,
+    "pct": 100.0,
+    "ci": [
+     83.9,
+     100
+    ]
+   },
+   "recall_process": {
+    "k": 8,
+    "n": 20,
+    "pct": 40.0,
+    "ci": [
+     21.9,
+     61.3
+    ]
+   },
+   "false_trigger": {
+    "k": 0,
+    "n": 40,
+    "pct": 0.0,
+    "ci": [
+     0,
+     8.8
+    ]
+   },
+   "median_desc_chars": 220.5,
+   "audit_errors_mean": 0,
+   "audit_warns_mean": 0,
+   "mean_output_tokens": 1486
+  },
+  "writer-forced": {
+   "skills_found": "10/10",
+   "recall_task": {
+    "k": 19,
+    "n": 20,
+    "pct": 95.0,
+    "ci": [
+     76.4,
+     99.1
+    ]
+   },
+   "recall_process": {
+    "k": 9,
+    "n": 20,
+    "pct": 45.0,
+    "ci": [
+     25.8,
+     65.8
+    ]
+   },
+   "false_trigger": {
+    "k": 0,
+    "n": 40,
+    "pct": 0.0,
+    "ci": [
+     0,
+     8.8
+    ]
+   },
+   "median_desc_chars": 216.5,
+   "audit_errors_mean": 0,
+   "audit_warns_mean": 0,
+   "mean_output_tokens": 1383
+  }
+ },
+ "clauses": [
+  {
+   "id": "W1",
+   "text": "skill-writer called in 6+ of 10 (writer); skill-creator in 4+ of 10 (creator)",
+   "verdict": "fails",
+   "evidence": {
+    "writer": 10,
+    "creator": 0
+   }
+  },
+  {
+   "id": "W2",
+   "text": "process skills: writer arms pooled at least 20 points above plain",
+   "verdict": "fails",
+   "evidence": {
+    "writer_pooled": {
+     "k": 17,
+     "n": 40,
+     "pct": 42.5,
+     "ci": [
+      28.5,
+      57.8
+     ]
+    },
+    "plain": {
+     "k": 9,
+     "n": 20,
+     "pct": 45.0,
+     "ci": [
+      25.8,
+      65.8
+     ]
+    }
+   }
+  },
+  {
+   "id": "W3",
+   "text": "task skills: writer and writer-forced within 10 points of plain",
+   "verdict": "holds",
+   "evidence": {
+    "plain": 100.0,
+    "creator": 95.0,
+    "writer": 100.0,
+    "writer-forced": 95.0
+   }
+  },
+  {
+   "id": "W4",
+   "text": "false triggers at most 10% in every arm",
+   "verdict": "holds",
+   "evidence": {
+    "plain": {
+     "k": 0,
+     "n": 40,
+     "pct": 0.0,
+     "ci": [
+      0,
+      8.8
+     ]
+    },
+    "creator": {
+     "k": 0,
+     "n": 40,
+     "pct": 0.0,
+     "ci": [
+      0,
+      8.8
+     ]
+    },
+    "writer": {
+     "k": 0,
+     "n": 40,
+     "pct": 0.0,
+     "ci": [
+      0,
+      8.8
+     ]
+    },
+    "writer-forced": {
+     "k": 0,
+     "n": 40,
+     "pct": 0.0,
+     "ci": [
+      0,
+      8.8
+     ]
+    }
+   }
+  },
+  {
+   "id": "W5",
+   "text": "audit: writer arms no ERROR and at most 0.5 WARN each; plain at least 1.0 WARN each",
+   "verdict": "fails",
+   "evidence": {
+    "plain": [
+     0,
+     0.3
+    ],
+    "creator": [
+     0,
+     0.3
+    ],
+    "writer": [
+     0,
+     0
+    ],
+    "writer-forced": [
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "id": "W6",
+   "text": "median description at most 300 characters and shorter than plain (writer arms)",
+   "verdict": "holds",
+   "evidence": {
+    "plain": 247.5,
+    "creator": 278.0,
+    "writer": 220.5,
+    "writer-forced": 216.5
+   }
+  },
+  {
+   "id": "W7",
+   "text": "output tokens of the writer arms at most 2x plain",
+   "verdict": "holds",
+   "evidence": {
+    "plain": 1876,
+    "creator": 1886,
+    "writer": 1486,
+    "writer-forced": 1383
+   }
+  }
+ ]
+}

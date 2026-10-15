@@ -1,0 +1,75 @@
+[
+ {
+  "label": "empty",
+  "n": 0,
+  "kind": null,
+  "first_request": 19256,
+  "repeat_equal": true,
+  "tools_at_start": 27,
+  "mcp_tools_at_start": 0,
+  "servers": [],
+  "added": 0
+ },
+ {
+  "label": "mcp5",
+  "n": 5,
+  "kind": "mcp",
+  "first_request": 19329,
+  "repeat_equal": true,
+  "tools_at_start": 32,
+  "mcp_tools_at_start": 5,
+  "servers": [
+   {
+    "name": "stub",
+    "status": "connected",
+    "source": "dynamic"
+   }
+  ],
+  "added": 73
+ },
+ {
+  "label": "mcp15",
+  "n": 15,
+  "kind": "mcp",
+  "first_request": 19486,
+  "repeat_equal": true,
+  "tools_at_start": 42,
+  "mcp_tools_at_start": 15,
+  "servers": [
+   {
+    "name": "stub",
+    "status": "connected",
+    "source": "dynamic"
+   }
+  ],
+  "added": 230
+ },
+ {
+  "label": "mcp40",
+  "n": 40,
+  "kind": "mcp",
+  "first_request": 19942,
+  "repeat_equal": true,
+  "tools_at_start": 67,
+  "mcp_tools_at_start": 40,
+  "servers": [
+   {
+    "name": "stub",
+    "status": "connected",
+    "source": "dynamic"
+   }
+  ],
+  "added": 686
+ },
+ {
+  "label": "skills15",
+  "n": 15,
+  "kind": "skills",
+  "first_request": 20421,
+  "repeat_equal": true,
+  "tools_at_start": 27,
+  "mcp_tools_at_start": 0,
+  "servers": [],
+  "added": 1165
+ }
+]

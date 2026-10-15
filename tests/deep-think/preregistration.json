@@ -1,0 +1,6 @@
+{
+ "part": 17,
+ "predictions_commit": "93f10e8c61a4e0e9d2d9191c042a123bcb8b2fce",
+ "committed": "2026-10-08T19:05:54+02:00",
+ "note": "prediction.md and inputs_hashes.json were committed together before any scored run; a pilot and a smoke run are excluded"
+}

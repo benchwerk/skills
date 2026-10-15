@@ -1,0 +1,7 @@
+{
+ "id": "cache-purge",
+ "primary": "app/cache.py::drop_expired",
+ "second": "app/registry.py::remove_empty",
+ "cannot_fail": "tests/test_cache.py::test_function_exists",
+ "trap": null
+}

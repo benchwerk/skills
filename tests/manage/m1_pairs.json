@@ -1,0 +1,107 @@
+{
+  "note": "M1 overlap pairs, written 2026-10-09 before any run. A is installed unchanged. B is installed with its description at three levels: adjacent (the suite text), near (B's description rewritten to share most words with A's) and distinct (B's description rewritten to share almost none). Prompts carry their material and each belongs to exactly one skill.",
+  "pairs": [
+    {
+      "a": "changelog-entry", "b": "release-notes-from-log",
+      "b_near": "Use when the user asks to write, format or fix release notes or a release announcement for a code change or a version. Do not use for commit messages or pull request descriptions.",
+      "b_distinct": "Use when the user pastes a git log or a list of commits between two tags and wants text to publish to customers. Turns commits into plain-language notes for people who do not read code.",
+      "a_prompts": [
+        "Write the changelog entry for 2.3.0: added dark mode setting, fixed login redirect loop, removed the old export endpoint.",
+        "Please turn these changes into a CHANGELOG.md section for v0.9.4: faster startup (new), crash on empty input (fixed).",
+        "Format this as a Keep a Changelog entry: 'v4.1.0 - added webhook retries, deprecated the v1 token format, fixed timezone bug in reports'.",
+        "Our CHANGELOG.md entry for 1.2.0 is messy, tidy it up: 'Added stuff for exports. also removed the beta flag. fix: reports page 500s'."
+      ],
+      "b_prompts": [
+        "Here is the git log between v1.4 and v1.5. Write release notes our customers will understand:\n- add CSV export for invoices\n- fix 500 error on empty cart\n- refactor payment module\n- bump deps",
+        "Write the announcement for our users for this release, from these commits:\nfeat: dark mode\nfix: password reset email not sent\nchore: CI cache\nBREAKING: drop Internet Explorer support",
+        "Turn this commit list into notes for non-technical users:\n- search is now 3x faster\n- fixed the crash when uploading large images\n- internal: renamed variables",
+        "Draft the 'What's new' text for the app store from this log:\n- added offline mode\n- fixed sync conflicts\n- removed the legacy importer"
+      ]
+    },
+    {
+      "a": "sql-migration-review", "b": "sql-query-tuning",
+      "b_near": "Use when the user asks to review, check or assess a SQL query for production performance. Do not use for schema migrations, designing schemas from scratch or writing new SELECT statements.",
+      "b_distinct": "Use when the user shares a slow query or an EXPLAIN plan and wants it faster: missing indexes, rewrites, outdated statistics.",
+      "a_prompts": [
+        "Review this migration before production: ALTER TABLE invoices ADD COLUMN paid_at timestamp NOT NULL; the table has 40 million rows.",
+        "Is this safe to run? CREATE INDEX idx_log_user ON audit_log (user_id); the table is huge and in constant use.",
+        "Check the down migration for data loss: DROP TABLE sessions_old; ALTER TABLE sessions RENAME COLUMN token TO token_hash;",
+        "We plan to run this schema change tonight: ALTER TABLE customers DROP COLUMN fax; ALTER TABLE customers ALTER COLUMN phone TYPE varchar(20); anything risky?"
+      ],
+      "b_prompts": [
+        "This query takes 12 seconds, why? SELECT * FROM orders o JOIN customers c ON c.id = o.customer_id WHERE LOWER(c.email) = 'a@b.com'; orders has 50M rows, customers 2M.",
+        "Here is the EXPLAIN ANALYZE of a slow query: Seq Scan on events (cost=0..98000 rows=2000000) Filter: (created_at > now() - interval '1 day') Rows Removed by Filter: 1990000. How do I make it fast?",
+        "Speed this up: SELECT DISTINCT user_id FROM logins WHERE country = 'DE' OR country = 'AT' ORDER BY created_at; the logins table has 300M rows.",
+        "Why is my query slow? SELECT COUNT(*) FROM tickets WHERE status NOT IN ('closed') AND assignee_id IN (SELECT id FROM staff WHERE active);"
+      ]
+    },
+    {
+      "a": "commit-message-format", "b": "pull-request-description",
+      "b_near": "Use when the user asks for a git pull request description, or to fix or reword one, from a diff or a description of a change. Do not use for changelog entries, commit messages or release notes.",
+      "b_distinct": "Use when a branch is ready for review and the user wants a title and a summary for the reviewers: what changed, how it was tested, what to look at first.",
+      "a_prompts": [
+        "Write a commit message for this change: in parser.py I fixed an off-by-one in the loop that skipped the last token, and added a test.",
+        "Give me a good git commit message: renamed the config key timeout to timeout_seconds in three files and updated the docs.",
+        "Reword this commit message, it is bad: 'fixed stuff and also changed the thing in utils'. The change makes the date parser accept ISO week dates.",
+        "I staged a change that removes the unused legacy_login() function and its imports. What should the commit message be?"
+      ],
+      "b_prompts": [
+        "Write the pull request description for my branch feature/retry-uploads: adds retries with backoff to the uploader, 4 files changed, tests for timeout and success, the risk is double uploads.",
+        "I am opening a PR that migrates our date handling from moment.js to date-fns across 23 files. Write the title and the description for the reviewers.",
+        "Draft a PR description for this: fixes the race condition in the cache refresh (src/cache.py), adds a lock, adds two tests, no API changes.",
+        "Create the PR text for my branch refactor/auth-module: splits auth.py into three files, no behaviour change, all 212 tests pass, reviewers should start with auth/session.py."
+      ]
+    },
+    {
+      "a": "html-accessibility-audit", "b": "html-seo-audit",
+      "b_near": "Use when the user asks to audit, review or fix the search engine optimisation of an HTML page, form or component: title, meta description, headings, canonical, links. Do not use for visual redesign, responsive layout or accessibility.",
+      "b_distinct": "Use when the user wants a web page to rank better in Google: title tags, meta descriptions, canonical links, structured data and internal links.",
+      "a_prompts": [
+        "Audit this for accessibility: <img src='logo.png'><h1>Shop</h1><h3>Deals</h3><input type='text' placeholder='Search'><a href='/x'>click here</a>",
+        "Is this form accessible? <form><input name='email' placeholder='Email'><div onclick='send()'>Send</div></form>",
+        "Check this snippet for screen reader problems: <button><i class='icon-trash'></i></button> <div role='button'>Save</div>",
+        "Review the contrast and keyboard use of this: <a href='#' style='color:#999;background:#fff;outline:none'>Read more</a>"
+      ],
+      "b_prompts": [
+        "Review this page for SEO: <head><title>Home</title></head><body><h1>Welcome</h1><h1>Our shop</h1><img src='a.jpg'></body>",
+        "Will Google index this page properly? <head><meta name='robots' content='noindex'><title>Best running shoes 2026 | ShopX - Free shipping on all running shoes and trail shoes and sneakers</title></head>",
+        "Improve the search ranking of this page: <title>Untitled</title><meta name='description' content=''><link rel='canonical' href='http://localhost/page'>",
+        "Check the structured data and internal links of this snippet for SEO: <script type='application/ld+json'>{'@type': 'Product'</script><a href='/p/1'>click here</a>"
+      ]
+    },
+    {
+      "a": "bash-script-safety-review", "b": "shell-portability-check",
+      "b_near": "Use when the user asks whether a Bash or shell script will run on other systems, or to review it for portability problems and missing compatibility handling. Do not use for writing new scripts, converting between shells or scheduling jobs.",
+      "b_distinct": "Use when the user has a script that works on Linux and needs to know whether it will also run on macOS, Alpine or Windows Git Bash, and what to change.",
+      "a_prompts": [
+        "Is this safe to run?\n#!/bin/bash\nTARGET=$1\nrm -rf $TARGET/*\n",
+        "Review this backup script for dangerous mistakes:\n#!/bin/bash\ncd /var/data\ntar czf /backup/data.tgz *\nrm -rf /var/data/tmp /var/data/$OLD",
+        "Check my script for quoting problems:\n#!/bin/bash\nfor f in $(ls *.log); do\n  gzip $f\ndone\nmv *.gz $DEST",
+        "Can this deploy script destroy anything?\n#!/bin/sh\nset +e\nrm -rf /srv/app/\ngit clone $REPO /srv/app"
+      ],
+      "b_prompts": [
+        "Will this run on macOS as well as Linux?\n#!/bin/bash\nsed -i 's/a/b/' file.txt\ndate -d 'yesterday' +%F\nreadlink -f $0",
+        "I need this script to work under plain sh on Alpine. What breaks?\n#!/bin/bash\nif [[ -f x ]]; then arr=(a b c); echo ${arr[1]}; fi",
+        "Does this work on Windows Git Bash and on Linux?\n#!/bin/bash\nCFG=/etc/app.conf\ngrep -P '[0-9]+' $CFG | xargs -r echo\nstat -c %s $CFG",
+        "Check this for compatibility between GNU and BSD tools:\nfind . -name '*.tmp' -printf '%p'\ncp -a src dst\nsort -V list.txt"
+      ]
+    },
+    {
+      "a": "api-error-check", "b": "api-versioning-check",
+      "b_near": "Use when the user asks to review or fix how a REST or HTTP API handler handles versions: breaking changes, deprecations, headers, compatibility. Do not use for writing new endpoints, authentication, API documentation or error handling.",
+      "b_distinct": "Use when the user changes an API contract and asks whether existing clients will break, whether a new version is needed, or how to announce a deprecation.",
+      "a_prompts": [
+        "Does this handler return the right errors?\n@app.post('/users')\ndef create():\n    try:\n        user = save(request.json)\n    except Exception as e:\n        return {'error': str(e)}, 500",
+        "Review the error handling of this endpoint: if the id is missing it returns 200 with {ok: false}; if the user does not exist it returns 500 with a stack trace.",
+        "Is it right to return 404 when the request body is invalid JSON? We also return the SQL error text to the client. Fix the error responses of this API.",
+        "Check how this handler reports failures: validation errors return 200 with the message 'bad input', and auth failures return 500."
+      ],
+      "b_prompts": [
+        "We want to rename the field user_name to username in the /users response and drop the old one. Will existing clients break?",
+        "Is it backward compatible to make the 'currency' parameter required on POST /payments, when it is optional today?",
+        "We are replacing /v1/orders with a new response shape. How should we deprecate the old endpoint and announce it?",
+        "I changed the status enum in the response from 3 values to 5 new values. Do I need a new API version?"
+      ]
+    }
+  ]
+}

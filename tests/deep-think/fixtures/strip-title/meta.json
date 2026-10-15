@@ -1,0 +1,7 @@
+{
+ "id": "strip-title",
+ "primary": "app/names.py::strip_title",
+ "second": "app/files.py::base_name",
+ "cannot_fail": "tests/test_names.py::test_title_handling_runs",
+ "trap": null
+}

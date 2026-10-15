@@ -1,0 +1,7 @@
+{
+ "id": "paging-first-page",
+ "primary": "app/paging.py::page_slice",
+ "second": "app/search.py::results_page",
+ "cannot_fail": null,
+ "trap": null
+}

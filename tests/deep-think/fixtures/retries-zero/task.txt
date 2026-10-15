@@ -1,0 +1,1 @@
+get_retries({'retries': 0}) returns 3, but 0 is a valid setting (no retries). Please fix it; the default when the setting is missing stays 3.

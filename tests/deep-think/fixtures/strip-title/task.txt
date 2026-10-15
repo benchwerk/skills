@@ -1,0 +1,1 @@
+strip_title('Mr. Murray') returns 'urray'. Names that start with the same letters as the title get cut. Please fix it.

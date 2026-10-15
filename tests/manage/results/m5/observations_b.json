@@ -1,0 +1,19 @@
+{
+ "M5.6b": {
+  "in_start_list": false,
+  "start_list_size": 17,
+  "after_read_answer_has_it": true,
+  "answer": "The file `pkg/a.txt` contains one line: \"hello from pkg\".\n\nNOW: dataviz, update-config, keybindings-help, code-review, simplify, fewer-permission-prompts, loop, schedule, claude-api, run, plugin-authoring, init, security-review, pkg-skill"
+ },
+ "M5.7b": [
+  "text",
+  "text"
+ ],
+ "M5.10b": {
+  "tools": [
+   "Bash",
+   "Skill"
+  ],
+  "answer": "FAILED Unknown skill: late. Did you mean name?"
+ }
+}

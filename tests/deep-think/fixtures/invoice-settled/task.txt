@@ -1,0 +1,1 @@
+is_settled([0.1, 0.2], 0.3) returns False although the payments add up to the invoice. Please fix it.

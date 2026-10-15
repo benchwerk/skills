@@ -1,0 +1,1 @@
+A user uploaded a file named '../../etc/passwd' and it was written outside the upload folder. upload_path must refuse names that leave UPLOAD_DIR. Please fix it.

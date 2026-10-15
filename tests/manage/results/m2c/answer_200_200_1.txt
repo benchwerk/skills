@@ -1,0 +1,20 @@
+a000-estimate-meal-plan: Use when the user asks to estimate a meal plan. Do not u
+a010-rewrite-budget: Use when the user asks to rewrite a budget. Gives a short r
+a020-estimate-chess-opening: Use when the user asks to estimate a chess opening. Works f
+a030-convert-survey: Use when the user asks to convert a survey. Covers the usua
+a040-rewrite-lab-report: Use when the user asks to rewrite a lab report. Works from
+a050-summarise-recipe: Use when the user asks to summarise a recipe. Do not use for
+a060-review-garden-layout: Use when the user asks to review a garden layout. Gives a sh
+a070-format-chess-opening: Use when the user asks to format a chess opening. Covers the
+a080-outline-newsletter: Use when the user asks to outline a newsletter. Covers the u
+a090-review-chess-opening: Use when the user asks to review a chess opening. Covers the
+a100-format-newsletter: NONE
+a110-compare-resume: NONE
+a120-translate-bike-repair: NONE
+a130-draft-board-game-rules: NONE
+a140-convert-itinerary: NONE
+a150-compare-survey: NONE
+a160-check-fund-report: NONE
+a170-format-press-release: NONE
+a180-validate-poem: NONE
+a190-plan-lab-report: NONE

@@ -1,0 +1,1 @@
+drop_expired raises 'RuntimeError: dictionary changed size during iteration' as soon as an entry has expired. Please fix it.

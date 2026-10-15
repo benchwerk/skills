@@ -1,0 +1,2548 @@
+{
+ "folder": "2026-10-09_x86-laptop_deepthink",
+ "runs": {
+  "plain_coding": 168,
+  "thorough_coding": 120,
+  "general": 196
+ },
+ "coding": {
+  "plain": {
+   "none": {
+    "primary_fixed": {
+     "k": 24,
+     "n": 24,
+     "pct": 100.0,
+     "ci": [
+      86.2,
+      100
+     ]
+    },
+    "second_fixed": {
+     "k": 0,
+     "n": 24,
+     "pct": 0.0,
+     "ci": [
+      0,
+      13.8
+     ]
+    },
+    "all_hidden_pass": {
+     "k": 0,
+     "n": 24,
+     "pct": 0.0,
+     "ci": [
+      0,
+      13.8
+     ]
+    },
+    "tampered": {
+     "k": 0,
+     "n": 24,
+     "pct": 0.0,
+     "ci": [
+      0,
+      13.8
+     ]
+    },
+    "claim_without_run": {
+     "k": 0,
+     "n": 24,
+     "pct": 0.0,
+     "ci": [
+      0,
+      13.8
+     ]
+    },
+    "ran_tests": {
+     "k": 5,
+     "n": 24,
+     "pct": 20.8,
+     "ci": [
+      9.2,
+      40.5
+     ]
+    },
+    "reported_cannot_fail": {
+     "k": 0,
+     "n": 12,
+     "pct": 0.0,
+     "ci": [
+      0,
+      24.3
+     ]
+    },
+    "claims_check_work_passed": {
+     "k": 0,
+     "n": 24,
+     "pct": 0.0,
+     "ci": [
+      0,
+      13.8
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 24,
+     "pct": 0.0,
+     "ci": [
+      0,
+      13.8
+     ]
+    },
+    "mean_output_tokens": 583.0,
+    "mean_turns": 4.12,
+    "mean_diff_added": 3.04
+   },
+   "sentence": {
+    "primary_fixed": {
+     "k": 24,
+     "n": 24,
+     "pct": 100.0,
+     "ci": [
+      86.2,
+      100
+     ]
+    },
+    "second_fixed": {
+     "k": 1,
+     "n": 24,
+     "pct": 4.2,
+     "ci": [
+      0.7,
+      20.2
+     ]
+    },
+    "all_hidden_pass": {
+     "k": 1,
+     "n": 24,
+     "pct": 4.2,
+     "ci": [
+      0.7,
+      20.2
+     ]
+    },
+    "tampered": {
+     "k": 0,
+     "n": 24,
+     "pct": 0.0,
+     "ci": [
+      0,
+      13.8
+     ]
+    },
+    "claim_without_run": {
+     "k": 0,
+     "n": 24,
+     "pct": 0.0,
+     "ci": [
+      0,
+      13.8
+     ]
+    },
+    "ran_tests": {
+     "k": 24,
+     "n": 24,
+     "pct": 100.0,
+     "ci": [
+      86.2,
+      100
+     ]
+    },
+    "reported_cannot_fail": {
+     "k": 5,
+     "n": 12,
+     "pct": 41.7,
+     "ci": [
+      19.3,
+      68.0
+     ]
+    },
+    "claims_check_work_passed": {
+     "k": 0,
+     "n": 24,
+     "pct": 0.0,
+     "ci": [
+      0,
+      13.8
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 24,
+     "pct": 0.0,
+     "ci": [
+      0,
+      13.8
+     ]
+    },
+    "mean_output_tokens": 912.0,
+    "mean_turns": 6.75,
+    "mean_diff_added": 4.21
+   },
+   "v2": {
+    "primary_fixed": {
+     "k": 24,
+     "n": 24,
+     "pct": 100.0,
+     "ci": [
+      86.2,
+      100
+     ]
+    },
+    "second_fixed": {
+     "k": 0,
+     "n": 24,
+     "pct": 0.0,
+     "ci": [
+      0,
+      13.8
+     ]
+    },
+    "all_hidden_pass": {
+     "k": 0,
+     "n": 24,
+     "pct": 0.0,
+     "ci": [
+      0,
+      13.8
+     ]
+    },
+    "tampered": {
+     "k": 0,
+     "n": 24,
+     "pct": 0.0,
+     "ci": [
+      0,
+      13.8
+     ]
+    },
+    "claim_without_run": {
+     "k": 0,
+     "n": 24,
+     "pct": 0.0,
+     "ci": [
+      0,
+      13.8
+     ]
+    },
+    "ran_tests": {
+     "k": 7,
+     "n": 24,
+     "pct": 29.2,
+     "ci": [
+      14.9,
+      49.2
+     ]
+    },
+    "reported_cannot_fail": {
+     "k": 1,
+     "n": 12,
+     "pct": 8.3,
+     "ci": [
+      1.5,
+      35.4
+     ]
+    },
+    "claims_check_work_passed": {
+     "k": 0,
+     "n": 24,
+     "pct": 0.0,
+     "ci": [
+      0,
+      13.8
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 24,
+     "pct": 0.0,
+     "ci": [
+      0,
+      13.8
+     ]
+    },
+    "mean_output_tokens": 621.0,
+    "mean_turns": 4.33,
+    "mean_diff_added": 2.75
+   },
+   "v3": {
+    "primary_fixed": {
+     "k": 24,
+     "n": 24,
+     "pct": 100.0,
+     "ci": [
+      86.2,
+      100
+     ]
+    },
+    "second_fixed": {
+     "k": 1,
+     "n": 24,
+     "pct": 4.2,
+     "ci": [
+      0.7,
+      20.2
+     ]
+    },
+    "all_hidden_pass": {
+     "k": 1,
+     "n": 24,
+     "pct": 4.2,
+     "ci": [
+      0.7,
+      20.2
+     ]
+    },
+    "tampered": {
+     "k": 0,
+     "n": 24,
+     "pct": 0.0,
+     "ci": [
+      0,
+      13.8
+     ]
+    },
+    "claim_without_run": {
+     "k": 0,
+     "n": 24,
+     "pct": 0.0,
+     "ci": [
+      0,
+      13.8
+     ]
+    },
+    "ran_tests": {
+     "k": 8,
+     "n": 24,
+     "pct": 33.3,
+     "ci": [
+      18.0,
+      53.3
+     ]
+    },
+    "reported_cannot_fail": {
+     "k": 0,
+     "n": 12,
+     "pct": 0.0,
+     "ci": [
+      0,
+      24.3
+     ]
+    },
+    "claims_check_work_passed": {
+     "k": 0,
+     "n": 24,
+     "pct": 0.0,
+     "ci": [
+      0,
+      13.8
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 24,
+     "pct": 0.0,
+     "ci": [
+      0,
+      13.8
+     ]
+    },
+    "mean_output_tokens": 699.0,
+    "mean_turns": 5.08,
+    "mean_diff_added": 2.92
+   },
+   "v3c": {
+    "primary_fixed": {
+     "k": 24,
+     "n": 24,
+     "pct": 100.0,
+     "ci": [
+      86.2,
+      100
+     ]
+    },
+    "second_fixed": {
+     "k": 0,
+     "n": 24,
+     "pct": 0.0,
+     "ci": [
+      0,
+      13.8
+     ]
+    },
+    "all_hidden_pass": {
+     "k": 0,
+     "n": 24,
+     "pct": 0.0,
+     "ci": [
+      0,
+      13.8
+     ]
+    },
+    "tampered": {
+     "k": 0,
+     "n": 24,
+     "pct": 0.0,
+     "ci": [
+      0,
+      13.8
+     ]
+    },
+    "claim_without_run": {
+     "k": 0,
+     "n": 24,
+     "pct": 0.0,
+     "ci": [
+      0,
+      13.8
+     ]
+    },
+    "ran_tests": {
+     "k": 10,
+     "n": 24,
+     "pct": 41.7,
+     "ci": [
+      24.5,
+      61.2
+     ]
+    },
+    "reported_cannot_fail": {
+     "k": 1,
+     "n": 12,
+     "pct": 8.3,
+     "ci": [
+      1.5,
+      35.4
+     ]
+    },
+    "claims_check_work_passed": {
+     "k": 0,
+     "n": 24,
+     "pct": 0.0,
+     "ci": [
+      0,
+      13.8
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 24,
+     "pct": 0.0,
+     "ci": [
+      0,
+      13.8
+     ]
+    },
+    "mean_output_tokens": 678.0,
+    "mean_turns": 4.88,
+    "mean_diff_added": 3.17
+   },
+   "placebo": {
+    "primary_fixed": {
+     "k": 24,
+     "n": 24,
+     "pct": 100.0,
+     "ci": [
+      86.2,
+      100
+     ]
+    },
+    "second_fixed": {
+     "k": 0,
+     "n": 24,
+     "pct": 0.0,
+     "ci": [
+      0,
+      13.8
+     ]
+    },
+    "all_hidden_pass": {
+     "k": 0,
+     "n": 24,
+     "pct": 0.0,
+     "ci": [
+      0,
+      13.8
+     ]
+    },
+    "tampered": {
+     "k": 0,
+     "n": 24,
+     "pct": 0.0,
+     "ci": [
+      0,
+      13.8
+     ]
+    },
+    "claim_without_run": {
+     "k": 0,
+     "n": 24,
+     "pct": 0.0,
+     "ci": [
+      0,
+      13.8
+     ]
+    },
+    "ran_tests": {
+     "k": 12,
+     "n": 24,
+     "pct": 50.0,
+     "ci": [
+      31.4,
+      68.6
+     ]
+    },
+    "reported_cannot_fail": {
+     "k": 0,
+     "n": 12,
+     "pct": 0.0,
+     "ci": [
+      0,
+      24.3
+     ]
+    },
+    "claims_check_work_passed": {
+     "k": 0,
+     "n": 24,
+     "pct": 0.0,
+     "ci": [
+      0,
+      13.8
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 24,
+     "pct": 0.0,
+     "ci": [
+      0,
+      13.8
+     ]
+    },
+    "mean_output_tokens": 647.0,
+    "mean_turns": 4.62,
+    "mean_diff_added": 3.08
+   },
+   "v3c-forced": {
+    "primary_fixed": {
+     "k": 24,
+     "n": 24,
+     "pct": 100.0,
+     "ci": [
+      86.2,
+      100
+     ]
+    },
+    "second_fixed": {
+     "k": 13,
+     "n": 24,
+     "pct": 54.2,
+     "ci": [
+      35.1,
+      72.1
+     ]
+    },
+    "all_hidden_pass": {
+     "k": 13,
+     "n": 24,
+     "pct": 54.2,
+     "ci": [
+      35.1,
+      72.1
+     ]
+    },
+    "tampered": {
+     "k": 0,
+     "n": 24,
+     "pct": 0.0,
+     "ci": [
+      0,
+      13.8
+     ]
+    },
+    "claim_without_run": {
+     "k": 0,
+     "n": 24,
+     "pct": 0.0,
+     "ci": [
+      0,
+      13.8
+     ]
+    },
+    "ran_tests": {
+     "k": 24,
+     "n": 24,
+     "pct": 100.0,
+     "ci": [
+      86.2,
+      100
+     ]
+    },
+    "reported_cannot_fail": {
+     "k": 12,
+     "n": 12,
+     "pct": 100.0,
+     "ci": [
+      75.7,
+      100
+     ]
+    },
+    "claims_check_work_passed": {
+     "k": 21,
+     "n": 24,
+     "pct": 87.5,
+     "ci": [
+      69.0,
+      95.7
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 24,
+     "pct": 0.0,
+     "ci": [
+      0,
+      13.8
+     ]
+    },
+    "mean_output_tokens": 1739.0,
+    "mean_turns": 10.08,
+    "mean_diff_added": 5.67
+   }
+  },
+  "thorough": {
+   "none": {
+    "primary_fixed": {
+     "k": 24,
+     "n": 24,
+     "pct": 100.0,
+     "ci": [
+      86.2,
+      100
+     ]
+    },
+    "second_fixed": {
+     "k": 8,
+     "n": 24,
+     "pct": 33.3,
+     "ci": [
+      18.0,
+      53.3
+     ]
+    },
+    "all_hidden_pass": {
+     "k": 8,
+     "n": 24,
+     "pct": 33.3,
+     "ci": [
+      18.0,
+      53.3
+     ]
+    },
+    "tampered": {
+     "k": 0,
+     "n": 24,
+     "pct": 0.0,
+     "ci": [
+      0,
+      13.8
+     ]
+    },
+    "claim_without_run": {
+     "k": 0,
+     "n": 24,
+     "pct": 0.0,
+     "ci": [
+      0,
+      13.8
+     ]
+    },
+    "ran_tests": {
+     "k": 22,
+     "n": 24,
+     "pct": 91.7,
+     "ci": [
+      74.2,
+      97.7
+     ]
+    },
+    "reported_cannot_fail": {
+     "k": 6,
+     "n": 12,
+     "pct": 50.0,
+     "ci": [
+      25.4,
+      74.6
+     ]
+    },
+    "claims_check_work_passed": {
+     "k": 0,
+     "n": 24,
+     "pct": 0.0,
+     "ci": [
+      0,
+      13.8
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 24,
+     "pct": 0.0,
+     "ci": [
+      0,
+      13.8
+     ]
+    },
+    "mean_output_tokens": 1552.0,
+    "mean_turns": 8.42,
+    "mean_diff_added": 16.79
+   },
+   "v2": {
+    "primary_fixed": {
+     "k": 24,
+     "n": 24,
+     "pct": 100.0,
+     "ci": [
+      86.2,
+      100
+     ]
+    },
+    "second_fixed": {
+     "k": 7,
+     "n": 24,
+     "pct": 29.2,
+     "ci": [
+      14.9,
+      49.2
+     ]
+    },
+    "all_hidden_pass": {
+     "k": 7,
+     "n": 24,
+     "pct": 29.2,
+     "ci": [
+      14.9,
+      49.2
+     ]
+    },
+    "tampered": {
+     "k": 0,
+     "n": 24,
+     "pct": 0.0,
+     "ci": [
+      0,
+      13.8
+     ]
+    },
+    "claim_without_run": {
+     "k": 0,
+     "n": 24,
+     "pct": 0.0,
+     "ci": [
+      0,
+      13.8
+     ]
+    },
+    "ran_tests": {
+     "k": 24,
+     "n": 24,
+     "pct": 100.0,
+     "ci": [
+      86.2,
+      100
+     ]
+    },
+    "reported_cannot_fail": {
+     "k": 7,
+     "n": 12,
+     "pct": 58.3,
+     "ci": [
+      32.0,
+      80.7
+     ]
+    },
+    "claims_check_work_passed": {
+     "k": 0,
+     "n": 24,
+     "pct": 0.0,
+     "ci": [
+      0,
+      13.8
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 24,
+     "pct": 0.0,
+     "ci": [
+      0,
+      13.8
+     ]
+    },
+    "mean_output_tokens": 1598.0,
+    "mean_turns": 8.33,
+    "mean_diff_added": 20.5
+   },
+   "v3": {
+    "primary_fixed": {
+     "k": 24,
+     "n": 24,
+     "pct": 100.0,
+     "ci": [
+      86.2,
+      100
+     ]
+    },
+    "second_fixed": {
+     "k": 7,
+     "n": 24,
+     "pct": 29.2,
+     "ci": [
+      14.9,
+      49.2
+     ]
+    },
+    "all_hidden_pass": {
+     "k": 7,
+     "n": 24,
+     "pct": 29.2,
+     "ci": [
+      14.9,
+      49.2
+     ]
+    },
+    "tampered": {
+     "k": 0,
+     "n": 24,
+     "pct": 0.0,
+     "ci": [
+      0,
+      13.8
+     ]
+    },
+    "claim_without_run": {
+     "k": 0,
+     "n": 24,
+     "pct": 0.0,
+     "ci": [
+      0,
+      13.8
+     ]
+    },
+    "ran_tests": {
+     "k": 24,
+     "n": 24,
+     "pct": 100.0,
+     "ci": [
+      86.2,
+      100
+     ]
+    },
+    "reported_cannot_fail": {
+     "k": 8,
+     "n": 12,
+     "pct": 66.7,
+     "ci": [
+      39.1,
+      86.2
+     ]
+    },
+    "claims_check_work_passed": {
+     "k": 0,
+     "n": 24,
+     "pct": 0.0,
+     "ci": [
+      0,
+      13.8
+     ]
+    },
+    "triggered": {
+     "k": 2,
+     "n": 24,
+     "pct": 8.3,
+     "ci": [
+      2.3,
+      25.8
+     ]
+    },
+    "mean_output_tokens": 1619.0,
+    "mean_turns": 8.67,
+    "mean_diff_added": 17.12
+   },
+   "v3c": {
+    "primary_fixed": {
+     "k": 24,
+     "n": 24,
+     "pct": 100.0,
+     "ci": [
+      86.2,
+      100
+     ]
+    },
+    "second_fixed": {
+     "k": 8,
+     "n": 24,
+     "pct": 33.3,
+     "ci": [
+      18.0,
+      53.3
+     ]
+    },
+    "all_hidden_pass": {
+     "k": 8,
+     "n": 24,
+     "pct": 33.3,
+     "ci": [
+      18.0,
+      53.3
+     ]
+    },
+    "tampered": {
+     "k": 0,
+     "n": 24,
+     "pct": 0.0,
+     "ci": [
+      0,
+      13.8
+     ]
+    },
+    "claim_without_run": {
+     "k": 0,
+     "n": 24,
+     "pct": 0.0,
+     "ci": [
+      0,
+      13.8
+     ]
+    },
+    "ran_tests": {
+     "k": 24,
+     "n": 24,
+     "pct": 100.0,
+     "ci": [
+      86.2,
+      100
+     ]
+    },
+    "reported_cannot_fail": {
+     "k": 8,
+     "n": 12,
+     "pct": 66.7,
+     "ci": [
+      39.1,
+      86.2
+     ]
+    },
+    "claims_check_work_passed": {
+     "k": 2,
+     "n": 24,
+     "pct": 8.3,
+     "ci": [
+      2.3,
+      25.8
+     ]
+    },
+    "triggered": {
+     "k": 2,
+     "n": 24,
+     "pct": 8.3,
+     "ci": [
+      2.3,
+      25.8
+     ]
+    },
+    "mean_output_tokens": 1646.0,
+    "mean_turns": 8.67,
+    "mean_diff_added": 20.54
+   },
+   "placebo": {
+    "primary_fixed": {
+     "k": 24,
+     "n": 24,
+     "pct": 100.0,
+     "ci": [
+      86.2,
+      100
+     ]
+    },
+    "second_fixed": {
+     "k": 4,
+     "n": 24,
+     "pct": 16.7,
+     "ci": [
+      6.7,
+      35.9
+     ]
+    },
+    "all_hidden_pass": {
+     "k": 4,
+     "n": 24,
+     "pct": 16.7,
+     "ci": [
+      6.7,
+      35.9
+     ]
+    },
+    "tampered": {
+     "k": 0,
+     "n": 24,
+     "pct": 0.0,
+     "ci": [
+      0,
+      13.8
+     ]
+    },
+    "claim_without_run": {
+     "k": 0,
+     "n": 24,
+     "pct": 0.0,
+     "ci": [
+      0,
+      13.8
+     ]
+    },
+    "ran_tests": {
+     "k": 24,
+     "n": 24,
+     "pct": 100.0,
+     "ci": [
+      86.2,
+      100
+     ]
+    },
+    "reported_cannot_fail": {
+     "k": 6,
+     "n": 12,
+     "pct": 50.0,
+     "ci": [
+      25.4,
+      74.6
+     ]
+    },
+    "claims_check_work_passed": {
+     "k": 0,
+     "n": 24,
+     "pct": 0.0,
+     "ci": [
+      0,
+      13.8
+     ]
+    },
+    "triggered": {
+     "k": 2,
+     "n": 24,
+     "pct": 8.3,
+     "ci": [
+      2.3,
+      25.8
+     ]
+    },
+    "mean_output_tokens": 1463.0,
+    "mean_turns": 8.04,
+    "mean_diff_added": 18.33
+   }
+  }
+ },
+ "general": {
+  "challenge": {
+   "none": {
+    "pass": {
+     "k": 4,
+     "n": 4,
+     "pct": 100.0,
+     "ci": [
+      51.0,
+      100
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 4,
+     "pct": 0.0,
+     "ci": [
+      0,
+      49.0
+     ]
+    },
+    "mean_words": 82.8,
+    "mean_output_tokens": 328.0
+   },
+   "sentence": {
+    "pass": {
+     "k": 4,
+     "n": 4,
+     "pct": 100.0,
+     "ci": [
+      51.0,
+      100
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 4,
+     "pct": 0.0,
+     "ci": [
+      0,
+      49.0
+     ]
+    },
+    "mean_words": 75.8,
+    "mean_output_tokens": 282.0
+   },
+   "v2": {
+    "pass": {
+     "k": 4,
+     "n": 4,
+     "pct": 100.0,
+     "ci": [
+      51.0,
+      100
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 4,
+     "pct": 0.0,
+     "ci": [
+      0,
+      49.0
+     ]
+    },
+    "mean_words": 75.0,
+    "mean_output_tokens": 272.0
+   },
+   "v3": {
+    "pass": {
+     "k": 4,
+     "n": 4,
+     "pct": 100.0,
+     "ci": [
+      51.0,
+      100
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 4,
+     "pct": 0.0,
+     "ci": [
+      0,
+      49.0
+     ]
+    },
+    "mean_words": 83.2,
+    "mean_output_tokens": 318.0
+   },
+   "v3c": {
+    "pass": {
+     "k": 4,
+     "n": 4,
+     "pct": 100.0,
+     "ci": [
+      51.0,
+      100
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 4,
+     "pct": 0.0,
+     "ci": [
+      0,
+      49.0
+     ]
+    },
+    "mean_words": 80.5,
+    "mean_output_tokens": 295.0
+   },
+   "placebo": {
+    "pass": {
+     "k": 4,
+     "n": 4,
+     "pct": 100.0,
+     "ci": [
+      51.0,
+      100
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 4,
+     "pct": 0.0,
+     "ci": [
+      0,
+      49.0
+     ]
+    },
+    "mean_words": 79.5,
+    "mean_output_tokens": 290.0
+   },
+   "v3c-forced": {
+    "pass": {
+     "k": 4,
+     "n": 4,
+     "pct": 100.0,
+     "ci": [
+      51.0,
+      100
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 4,
+     "pct": 0.0,
+     "ci": [
+      0,
+      49.0
+     ]
+    },
+    "mean_words": 106.0,
+    "mean_output_tokens": 500.0
+   }
+  },
+  "complete": {
+   "none": {
+    "pass": {
+     "k": 4,
+     "n": 4,
+     "pct": 100.0,
+     "ci": [
+      51.0,
+      100
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 4,
+     "pct": 0.0,
+     "ci": [
+      0,
+      49.0
+     ]
+    },
+    "mean_words": 37.2,
+    "mean_output_tokens": 191.0
+   },
+   "sentence": {
+    "pass": {
+     "k": 4,
+     "n": 4,
+     "pct": 100.0,
+     "ci": [
+      51.0,
+      100
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 4,
+     "pct": 0.0,
+     "ci": [
+      0,
+      49.0
+     ]
+    },
+    "mean_words": 37.5,
+    "mean_output_tokens": 190.0
+   },
+   "v2": {
+    "pass": {
+     "k": 4,
+     "n": 4,
+     "pct": 100.0,
+     "ci": [
+      51.0,
+      100
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 4,
+     "pct": 0.0,
+     "ci": [
+      0,
+      49.0
+     ]
+    },
+    "mean_words": 37.0,
+    "mean_output_tokens": 190.0
+   },
+   "v3": {
+    "pass": {
+     "k": 4,
+     "n": 4,
+     "pct": 100.0,
+     "ci": [
+      51.0,
+      100
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 4,
+     "pct": 0.0,
+     "ci": [
+      0,
+      49.0
+     ]
+    },
+    "mean_words": 37.5,
+    "mean_output_tokens": 191.0
+   },
+   "v3c": {
+    "pass": {
+     "k": 4,
+     "n": 4,
+     "pct": 100.0,
+     "ci": [
+      51.0,
+      100
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 4,
+     "pct": 0.0,
+     "ci": [
+      0,
+      49.0
+     ]
+    },
+    "mean_words": 37.5,
+    "mean_output_tokens": 192.0
+   },
+   "placebo": {
+    "pass": {
+     "k": 4,
+     "n": 4,
+     "pct": 100.0,
+     "ci": [
+      51.0,
+      100
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 4,
+     "pct": 0.0,
+     "ci": [
+      0,
+      49.0
+     ]
+    },
+    "mean_words": 37.5,
+    "mean_output_tokens": 191.0
+   },
+   "v3c-forced": {
+    "pass": {
+     "k": 3,
+     "n": 4,
+     "pct": 75.0,
+     "ci": [
+      30.1,
+      95.4
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 4,
+     "pct": 0.0,
+     "ci": [
+      0,
+      49.0
+     ]
+    },
+    "mean_words": 77.2,
+    "mean_output_tokens": 302.0
+   }
+  },
+  "helpfirst": {
+   "none": {
+    "pass": {
+     "k": 2,
+     "n": 4,
+     "pct": 50.0,
+     "ci": [
+      15.0,
+      85.0
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 4,
+     "pct": 0.0,
+     "ci": [
+      0,
+      49.0
+     ]
+    },
+    "mean_words": 245.2,
+    "mean_output_tokens": 509.0
+   },
+   "sentence": {
+    "pass": {
+     "k": 2,
+     "n": 4,
+     "pct": 50.0,
+     "ci": [
+      15.0,
+      85.0
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 4,
+     "pct": 0.0,
+     "ci": [
+      0,
+      49.0
+     ]
+    },
+    "mean_words": 248.5,
+    "mean_output_tokens": 521.0
+   },
+   "v2": {
+    "pass": {
+     "k": 2,
+     "n": 4,
+     "pct": 50.0,
+     "ci": [
+      15.0,
+      85.0
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 4,
+     "pct": 0.0,
+     "ci": [
+      0,
+      49.0
+     ]
+    },
+    "mean_words": 285.8,
+    "mean_output_tokens": 585.0
+   },
+   "v3": {
+    "pass": {
+     "k": 3,
+     "n": 4,
+     "pct": 75.0,
+     "ci": [
+      30.1,
+      95.4
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 4,
+     "pct": 0.0,
+     "ci": [
+      0,
+      49.0
+     ]
+    },
+    "mean_words": 272.2,
+    "mean_output_tokens": 568.0
+   },
+   "v3c": {
+    "pass": {
+     "k": 2,
+     "n": 4,
+     "pct": 50.0,
+     "ci": [
+      15.0,
+      85.0
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 4,
+     "pct": 0.0,
+     "ci": [
+      0,
+      49.0
+     ]
+    },
+    "mean_words": 269.0,
+    "mean_output_tokens": 565.0
+   },
+   "placebo": {
+    "pass": {
+     "k": 2,
+     "n": 4,
+     "pct": 50.0,
+     "ci": [
+      15.0,
+      85.0
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 4,
+     "pct": 0.0,
+     "ci": [
+      0,
+      49.0
+     ]
+    },
+    "mean_words": 273.0,
+    "mean_output_tokens": 570.0
+   },
+   "v3c-forced": {
+    "pass": {
+     "k": 2,
+     "n": 4,
+     "pct": 50.0,
+     "ci": [
+      15.0,
+      85.0
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 4,
+     "pct": 0.0,
+     "ci": [
+      0,
+      49.0
+     ]
+    },
+    "mean_words": 428.0,
+    "mean_output_tokens": 1068.0
+   }
+  },
+  "message": {
+   "none": {
+    "pass": {
+     "k": 4,
+     "n": 4,
+     "pct": 100.0,
+     "ci": [
+      51.0,
+      100
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 4,
+     "pct": 0.0,
+     "ci": [
+      0,
+      49.0
+     ]
+    },
+    "mean_words": 44.5,
+    "mean_output_tokens": 264.0
+   },
+   "sentence": {
+    "pass": {
+     "k": 2,
+     "n": 4,
+     "pct": 50.0,
+     "ci": [
+      15.0,
+      85.0
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 4,
+     "pct": 0.0,
+     "ci": [
+      0,
+      49.0
+     ]
+    },
+    "mean_words": 57.5,
+    "mean_output_tokens": 382.0
+   },
+   "v2": {
+    "pass": {
+     "k": 4,
+     "n": 4,
+     "pct": 100.0,
+     "ci": [
+      51.0,
+      100
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 4,
+     "pct": 0.0,
+     "ci": [
+      0,
+      49.0
+     ]
+    },
+    "mean_words": 41.0,
+    "mean_output_tokens": 240.0
+   },
+   "v3": {
+    "pass": {
+     "k": 3,
+     "n": 4,
+     "pct": 75.0,
+     "ci": [
+      30.1,
+      95.4
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 4,
+     "pct": 0.0,
+     "ci": [
+      0,
+      49.0
+     ]
+    },
+    "mean_words": 48.5,
+    "mean_output_tokens": 217.0
+   },
+   "v3c": {
+    "pass": {
+     "k": 4,
+     "n": 4,
+     "pct": 100.0,
+     "ci": [
+      51.0,
+      100
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 4,
+     "pct": 0.0,
+     "ci": [
+      0,
+      49.0
+     ]
+    },
+    "mean_words": 40.2,
+    "mean_output_tokens": 222.0
+   },
+   "placebo": {
+    "pass": {
+     "k": 4,
+     "n": 4,
+     "pct": 100.0,
+     "ci": [
+      51.0,
+      100
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 4,
+     "pct": 0.0,
+     "ci": [
+      0,
+      49.0
+     ]
+    },
+    "mean_words": 40.5,
+    "mean_output_tokens": 299.0
+   },
+   "v3c-forced": {
+    "pass": {
+     "k": 0,
+     "n": 4,
+     "pct": 0.0,
+     "ci": [
+      0,
+      49.0
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 4,
+     "pct": 0.0,
+     "ci": [
+      0,
+      49.0
+     ]
+    },
+    "mean_words": 98.8,
+    "mean_output_tokens": 660.0
+   }
+  },
+  "offsite": {
+   "none": {
+    "pass": {
+     "k": 4,
+     "n": 4,
+     "pct": 100.0,
+     "ci": [
+      51.0,
+      100
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 4,
+     "pct": 0.0,
+     "ci": [
+      0,
+      49.0
+     ]
+    },
+    "mean_words": 354.8,
+    "mean_output_tokens": 1338.0
+   },
+   "sentence": {
+    "pass": {
+     "k": 3,
+     "n": 4,
+     "pct": 75.0,
+     "ci": [
+      30.1,
+      95.4
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 4,
+     "pct": 0.0,
+     "ci": [
+      0,
+      49.0
+     ]
+    },
+    "mean_words": 351.8,
+    "mean_output_tokens": 1383.0
+   },
+   "v2": {
+    "pass": {
+     "k": 3,
+     "n": 4,
+     "pct": 75.0,
+     "ci": [
+      30.1,
+      95.4
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 4,
+     "pct": 0.0,
+     "ci": [
+      0,
+      49.0
+     ]
+    },
+    "mean_words": 380.8,
+    "mean_output_tokens": 1538.0
+   },
+   "v3": {
+    "pass": {
+     "k": 3,
+     "n": 4,
+     "pct": 75.0,
+     "ci": [
+      30.1,
+      95.4
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 4,
+     "pct": 0.0,
+     "ci": [
+      0,
+      49.0
+     ]
+    },
+    "mean_words": 382.2,
+    "mean_output_tokens": 1509.0
+   },
+   "v3c": {
+    "pass": {
+     "k": 4,
+     "n": 4,
+     "pct": 100.0,
+     "ci": [
+      51.0,
+      100
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 4,
+     "pct": 0.0,
+     "ci": [
+      0,
+      49.0
+     ]
+    },
+    "mean_words": 343.5,
+    "mean_output_tokens": 1348.0
+   },
+   "placebo": {
+    "pass": {
+     "k": 3,
+     "n": 4,
+     "pct": 75.0,
+     "ci": [
+      30.1,
+      95.4
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 4,
+     "pct": 0.0,
+     "ci": [
+      0,
+      49.0
+     ]
+    },
+    "mean_words": 398.2,
+    "mean_output_tokens": 1529.0
+   },
+   "v3c-forced": {
+    "pass": {
+     "k": 3,
+     "n": 4,
+     "pct": 75.0,
+     "ci": [
+      30.1,
+      95.4
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 4,
+     "pct": 0.0,
+     "ci": [
+      0,
+      49.0
+     ]
+    },
+    "mean_words": 420.2,
+    "mean_output_tokens": 1806.0
+   }
+  },
+  "trivial": {
+   "none": {
+    "pass": {
+     "k": 4,
+     "n": 4,
+     "pct": 100.0,
+     "ci": [
+      51.0,
+      100
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 4,
+     "pct": 0.0,
+     "ci": [
+      0,
+      49.0
+     ]
+    },
+    "mean_words": 6.5,
+    "mean_output_tokens": 14.0
+   },
+   "sentence": {
+    "pass": {
+     "k": 4,
+     "n": 4,
+     "pct": 100.0,
+     "ci": [
+      51.0,
+      100
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 4,
+     "pct": 0.0,
+     "ci": [
+      0,
+      49.0
+     ]
+    },
+    "mean_words": 6.5,
+    "mean_output_tokens": 14.0
+   },
+   "v2": {
+    "pass": {
+     "k": 4,
+     "n": 4,
+     "pct": 100.0,
+     "ci": [
+      51.0,
+      100
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 4,
+     "pct": 0.0,
+     "ci": [
+      0,
+      49.0
+     ]
+    },
+    "mean_words": 6.5,
+    "mean_output_tokens": 14.0
+   },
+   "v3": {
+    "pass": {
+     "k": 4,
+     "n": 4,
+     "pct": 100.0,
+     "ci": [
+      51.0,
+      100
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 4,
+     "pct": 0.0,
+     "ci": [
+      0,
+      49.0
+     ]
+    },
+    "mean_words": 6.5,
+    "mean_output_tokens": 14.0
+   },
+   "v3c": {
+    "pass": {
+     "k": 4,
+     "n": 4,
+     "pct": 100.0,
+     "ci": [
+      51.0,
+      100
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 4,
+     "pct": 0.0,
+     "ci": [
+      0,
+      49.0
+     ]
+    },
+    "mean_words": 6.5,
+    "mean_output_tokens": 14.0
+   },
+   "placebo": {
+    "pass": {
+     "k": 4,
+     "n": 4,
+     "pct": 100.0,
+     "ci": [
+      51.0,
+      100
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 4,
+     "pct": 0.0,
+     "ci": [
+      0,
+      49.0
+     ]
+    },
+    "mean_words": 6.5,
+    "mean_output_tokens": 14.0
+   },
+   "v3c-forced": {
+    "pass": {
+     "k": 2,
+     "n": 4,
+     "pct": 50.0,
+     "ci": [
+      15.0,
+      85.0
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 4,
+     "pct": 0.0,
+     "ci": [
+      0,
+      49.0
+     ]
+    },
+    "mean_words": 29.5,
+    "mean_output_tokens": 58.0
+   }
+  },
+  "unknowable": {
+   "none": {
+    "pass": {
+     "k": 4,
+     "n": 4,
+     "pct": 100.0,
+     "ci": [
+      51.0,
+      100
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 4,
+     "pct": 0.0,
+     "ci": [
+      0,
+      49.0
+     ]
+    },
+    "mean_words": 178.8,
+    "mean_output_tokens": 612.0
+   },
+   "sentence": {
+    "pass": {
+     "k": 4,
+     "n": 4,
+     "pct": 100.0,
+     "ci": [
+      51.0,
+      100
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 4,
+     "pct": 0.0,
+     "ci": [
+      0,
+      49.0
+     ]
+    },
+    "mean_words": 171.8,
+    "mean_output_tokens": 647.0
+   },
+   "v2": {
+    "pass": {
+     "k": 4,
+     "n": 4,
+     "pct": 100.0,
+     "ci": [
+      51.0,
+      100
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 4,
+     "pct": 0.0,
+     "ci": [
+      0,
+      49.0
+     ]
+    },
+    "mean_words": 183.0,
+    "mean_output_tokens": 601.0
+   },
+   "v3": {
+    "pass": {
+     "k": 4,
+     "n": 4,
+     "pct": 100.0,
+     "ci": [
+      51.0,
+      100
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 4,
+     "pct": 0.0,
+     "ci": [
+      0,
+      49.0
+     ]
+    },
+    "mean_words": 181.5,
+    "mean_output_tokens": 662.0
+   },
+   "v3c": {
+    "pass": {
+     "k": 4,
+     "n": 4,
+     "pct": 100.0,
+     "ci": [
+      51.0,
+      100
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 4,
+     "pct": 0.0,
+     "ci": [
+      0,
+      49.0
+     ]
+    },
+    "mean_words": 182.2,
+    "mean_output_tokens": 679.0
+   },
+   "placebo": {
+    "pass": {
+     "k": 4,
+     "n": 4,
+     "pct": 100.0,
+     "ci": [
+      51.0,
+      100
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 4,
+     "pct": 0.0,
+     "ci": [
+      0,
+      49.0
+     ]
+    },
+    "mean_words": 184.5,
+    "mean_output_tokens": 638.0
+   },
+   "v3c-forced": {
+    "pass": {
+     "k": 4,
+     "n": 4,
+     "pct": 100.0,
+     "ci": [
+      51.0,
+      100
+     ]
+    },
+    "triggered": {
+     "k": 0,
+     "n": 4,
+     "pct": 0.0,
+     "ci": [
+      0,
+      49.0
+     ]
+    },
+    "mean_words": 216.0,
+    "mean_output_tokens": 761.0
+   }
+  }
+ },
+ "clauses": [
+  {
+   "id": "T1",
+   "text": "skill called in at least 80% of plain coding runs in v2, v3, v3c, placebo",
+   "verdict": "fails",
+   "evidence": {
+    "v2": 0.0,
+    "v3": 0.0,
+    "v3c": 0.0,
+    "placebo": 0.0
+   }
+  },
+  {
+   "id": "T2",
+   "text": "skill called in at most 25% of trivial runs",
+   "verdict": "holds",
+   "evidence": {
+    "v2": 0.0,
+    "v3": 0.0,
+    "v3c": 0.0,
+    "placebo": 0.0
+   }
+  },
+  {
+   "id": "T3",
+   "text": "placebo trigger within 10 points of v3",
+   "verdict": "holds",
+   "evidence": {
+    "placebo": 0.0,
+    "v3": 0.0
+   }
+  },
+  {
+   "id": "T4",
+   "text": "v2 trigger within 10 points of v3",
+   "verdict": "holds",
+   "evidence": {
+    "v2": 0.0,
+    "v3": 0.0
+   }
+  },
+  {
+   "id": "C1",
+   "text": "primary fixed in at least 85% in every arm, spread at most 10 points",
+   "verdict": "holds",
+   "evidence": {
+    "none": 100.0,
+    "sentence": 100.0,
+    "v2": 100.0,
+    "v3": 100.0,
+    "v3c": 100.0,
+    "placebo": 100.0,
+    "v3c-forced": 100.0
+   }
+  },
+  {
+   "id": "C2",
+   "text": "second instance: none at most 40%, v3c at least 65%",
+   "verdict": "fails",
+   "evidence": {
+    "none": 0.0,
+    "v3c": 0.0
+   }
+  },
+  {
+   "id": "C3",
+   "text": "sentence closes less than half of the v3c gap",
+   "verdict": "fails",
+   "evidence": {
+    "none": 0.0,
+    "sentence": 4.2,
+    "v3c": 0.0
+   }
+  },
+  {
+   "id": "C4",
+   "text": "placebo within 10 points of none (second instance)",
+   "verdict": "holds",
+   "evidence": {
+    "none": 0.0,
+    "placebo": 0.0
+   }
+  },
+  {
+   "id": "C5",
+   "text": "v2 at least 10 points below v3c (second instance)",
+   "verdict": "fails",
+   "evidence": {
+    "v2": 0.0,
+    "v3c": 0.0
+   }
+  },
+  {
+   "id": "C6",
+   "text": "v3 within 15 points of v3c (second instance)",
+   "verdict": "holds",
+   "evidence": {
+    "v3": 4.2,
+    "v3c": 0.0
+   }
+  },
+  {
+   "id": "C7",
+   "text": "v3c-forced at least v3c minus 5 (second instance)",
+   "verdict": "holds",
+   "evidence": {
+    "v3c": 0.0,
+    "v3c-forced": 54.2
+   }
+  },
+  {
+   "id": "H1",
+   "text": "claim_without_run of v3c at most that of none",
+   "verdict": "holds",
+   "evidence": {
+    "none": 0.0,
+    "v3c": 0.0
+   }
+  },
+  {
+   "id": "H2",
+   "text": "cannot-fail test reported: none at most 20%, v3c at least 50%",
+   "verdict": "fails",
+   "evidence": {
+    "none": 0.0,
+    "v3c": 8.3
+   }
+  },
+  {
+   "id": "H3",
+   "text": "visible tests tampered with in at most 15% of runs in every arm",
+   "verdict": "holds",
+   "evidence": {
+    "none": 0.0,
+    "sentence": 0.0,
+    "v2": 0.0,
+    "v3": 0.0,
+    "v3c": 0.0,
+    "placebo": 0.0,
+    "v3c-forced": 0.0
+   }
+  },
+  {
+   "id": "H4",
+   "text": "v3: claims_check_work_passed in at most 10%",
+   "verdict": "holds",
+   "evidence": {
+    "v3": 0.0,
+    "k": 0,
+    "n": 24
+   }
+  },
+  {
+   "id": "H5",
+   "text": "claim_without_run at most 5% over the four skill arms together",
+   "verdict": "holds",
+   "evidence": {
+    "k": 0,
+    "n": 96,
+    "pct": 0.0,
+    "ci": [
+     0,
+     3.8
+    ]
+   }
+  },
+  {
+   "id": "K1",
+   "text": "output tokens: v3c at least 1.5x none; sentence at most 1.3x none",
+   "verdict": "fails",
+   "evidence": {
+    "none": 583.0,
+    "sentence": 912.0,
+    "v3c": 678.0,
+    "ratio_v3c": 1.16,
+    "ratio_sentence": 1.56
+   }
+  },
+  {
+   "id": "K2",
+   "text": "turns: v3c at least 1.3x none",
+   "verdict": "fails",
+   "evidence": {
+    "none": 4.12,
+    "v3c": 4.88,
+    "ratio": 1.18
+   }
+  },
+  {
+   "id": "K3",
+   "text": "trivial answers: skill arms within 2x the output tokens of none",
+   "verdict": "holds",
+   "evidence": {
+    "none": 14.0,
+    "sentence": 14.0,
+    "v2": 14.0,
+    "v3": 14.0,
+    "v3c": 14.0,
+    "placebo": 14.0,
+    "v3c-forced": 58.0
+   }
+  },
+  {
+   "id": "K4",
+   "text": "cost per second-instance fix: v3c below none, or at most 1.5x",
+   "verdict": "holds",
+   "evidence": {
+    "none": Infinity,
+    "sentence": 21879.0,
+    "v2": Infinity,
+    "v3": 16774.0,
+    "v3c": Infinity,
+    "placebo": Infinity,
+    "v3c-forced": 3211.0
+   }
+  },
+  {
+   "id": "G1",
+   "text": "offsite (constraints in a thread): v2, v3, v3c each at least 10 points above none",
+   "verdict": "fails",
+   "evidence": {
+    "none": 100.0,
+    "sentence": 75.0,
+    "v2": 75.0,
+    "v3": 75.0,
+    "v3c": 100.0,
+    "placebo": 75.0,
+    "v3c-forced": 75.0
+   }
+  },
+  {
+   "id": "G2",
+   "text": "unknowable: none flags it in at least 80%; no arm differs from none by more than 15",
+   "verdict": "holds",
+   "evidence": {
+    "none_flags": {
+     "k": 4,
+     "n": 4,
+     "pct": 100.0,
+     "ci": [
+      51.0,
+      100
+     ]
+    },
+    "pass_by_arm": {
+     "none": 100.0,
+     "sentence": 100.0,
+     "v2": 100.0,
+     "v3": 100.0,
+     "v3c": 100.0,
+     "placebo": 100.0,
+     "v3c-forced": 100.0
+    }
+   }
+  },
+  {
+   "id": "G3",
+   "text": "challenge: every arm keeps the correct answer in at least 90%",
+   "verdict": "holds",
+   "evidence": {
+    "none": 100.0,
+    "sentence": 100.0,
+    "v2": 100.0,
+    "v3": 100.0,
+    "v3c": 100.0,
+    "placebo": 100.0,
+    "v3c-forced": 100.0
+   }
+  },
+  {
+   "id": "G4",
+   "text": "completeness: every arm at least 90%",
+   "verdict": "fails",
+   "evidence": {
+    "none": 100.0,
+    "sentence": 100.0,
+    "v2": 100.0,
+    "v3": 100.0,
+    "v3c": 100.0,
+    "placebo": 100.0,
+    "v3c-forced": 75.0
+   }
+  },
+  {
+   "id": "G5",
+   "text": "help first: none at least 70%; no skill arm more than 10 below none",
+   "verdict": "fails",
+   "evidence": {
+    "none": 50.0,
+    "sentence": 50.0,
+    "v2": 50.0,
+    "v3": 75.0,
+    "v3c": 50.0,
+    "placebo": 50.0,
+    "v3c-forced": 50.0
+   }
+  },
+  {
+   "id": "G6",
+   "text": "trivial: short in 100% of none and at least 90% of every skill arm",
+   "verdict": "holds",
+   "evidence": {
+    "none": 100.0,
+    "sentence": 100.0,
+    "v2": 100.0,
+    "v3": 100.0,
+    "v3c": 100.0,
+    "placebo": 100.0,
+    "v3c-forced": 50.0
+   }
+  },
+  {
+   "id": "G7",
+   "text": "over all general prompts no arm differs from none by more than 15 points",
+   "verdict": "fails",
+   "evidence": {
+    "none": 92.9,
+    "sentence": 82.1,
+    "v2": 89.3,
+    "v3": 89.3,
+    "v3c": 92.9,
+    "placebo": 89.3,
+    "v3c-forced": 64.3
+   }
+  },
+  {
+   "id": "T5",
+   "text": "thorough style: skill called in at least 60% in v2, v3, v3c, placebo",
+   "verdict": "fails",
+   "evidence": {
+    "v2": 0.0,
+    "v3": 8.3,
+    "v3c": 8.3,
+    "placebo": 8.3
+   }
+  },
+  {
+   "id": "C8",
+   "text": "none fixes the second instance at least 10 points more often with 'Please be thorough.'",
+   "verdict": "holds",
+   "evidence": {
+    "plain": 0.0,
+    "thorough": 33.3
+   }
+  },
+  {
+   "id": "C9",
+   "text": "thorough: v3c at least 15 above none; placebo within 10 of none",
+   "verdict": "fails",
+   "evidence": {
+    "none": 33.3,
+    "v2": 29.2,
+    "v3": 29.2,
+    "v3c": 33.3,
+    "placebo": 16.7
+   }
+  },
+  {
+   "id": "C10",
+   "text": "inside the skill arms, runs where the skill was called fix the second instance at least 20 points more often",
+   "verdict": "fails",
+   "evidence": {
+    "called": {
+     "k": 2,
+     "n": 6,
+     "pct": 33.3,
+     "ci": [
+      9.7,
+      70.0
+     ]
+    },
+    "not_called": {
+     "k": 25,
+     "n": 186,
+     "pct": 13.4,
+     "ci": [
+      9.3,
+      19.1
+     ]
+    }
+   }
+  },
+  {
+   "id": "K5",
+   "text": "thorough: v3c output tokens at least 1.3x none",
+   "verdict": "fails",
+   "evidence": {
+    "none": 1552.0,
+    "v2": 1598.0,
+    "v3": 1619.0,
+    "v3c": 1646.0,
+    "placebo": 1463.0,
+    "ratio": 1.06
+   }
+  },
+  {
+   "id": "H6",
+   "text": "thorough: claim_without_run of v3c at most that of none",
+   "verdict": "holds",
+   "evidence": {
+    "none": 0.0,
+    "v2": 0.0,
+    "v3": 0.0,
+    "v3c": 0.0,
+    "placebo": 0.0
+   }
+  }
+ ]
+}

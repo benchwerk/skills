@@ -1,0 +1,75 @@
+api-error-check
+api-versioning-check
+bash-script-safety-review
+changelog-entry
+commit-message-format
+csv-cleaning-plan
+html-accessibility-audit
+html-seo-audit
+meeting-notes-summary
+pull-request-description
+python-docstrings
+release-notes-from-log
+shell-portability-check
+sql-migration-review
+sql-query-tuning
+x000-estimate-birdwatching-log
+x001-rewrite-itinerary
+x002-validate-survey
+x003-plan-release-checklist
+x004-validate-itinerary
+x005-convert-recipe
+x006-check-recipe
+x007-audit-workout
+x008-format-workout
+x009-explain-customer-email
+x010-plan-job-posting
+x011-format-tax-checklist
+x012-summarise-syllabus
+x013-validate-poem
+x014-estimate-inventory-sheet
+x015-convert-inventory-sheet
+x016-estimate-timesheet
+x017-rewrite-garden-layout
+x018-translate-poem
+x019-check-resume
+x020-translate-timesheet
+x021-review-travel-visa-form
+x022-outline-playlist
+x023-explain-wedding-schedule
+x024-plan-warehouse-pick-list
+x025-plan-recipe
+x026-format-knitting-pattern
+x027-plan-wedding-schedule
+x028-explain-lab-report
+x029-compare-recipe
+x030-explain-shift-roster
+x031-explain-grant-proposal
+x032-draft-syllabus
+x033-plan-packing-list
+x034-estimate-garden-layout
+dataviz
+update-config
+keybindings-help
+code-review
+simplify
+fewer-permission-prompts
+loop
+schedule
+claude-api
+run
+plugin-authoring
+init
+security-review
+===
+api-error-check: "Use when the user asks to review or fix how a REST or HTTP API handler reports errors: status codes, error bodies, validation failures, leaked internals. Do not use for writing new endpoints, authentication, API documentation or versioning."
+
+shell-portability-check: "Use when the user asks whether a shell script will run on other systems (Linux, macOS, Alpine, Windows Git Bash) or under sh instead of bash. Do not use for safety review, writing new scripts or translating scripts into other languages."
+
+x010-plan-job-posting: "Use when the user asks to plan a job posting. Covers the usual steps for a job posting, in plain language. Covers th" [cut]
+
+x022-outline-playlist: "Use when the user asks to outline a playlist. Works from the text the user pastes. Asks for missing details only when they change the result. Works from the text the user pastes. Asks for missing details only when they change the result. Do not use for unrelated documents. Works from the text the user pastes. Works from the text the user pastes. Works from the text the user pastes. Do not use for unrelated documents" [cut]
+
+x034-estimate-garden-layout: "Use when the user asks to estimate a garden layout. Gives a short report at the end. Works from the text the user pastes. Covers the usual steps for a garden layout, and suggest next steps. Gives a short repo" [cut]
+
+changelog-entry: "Use when the user asks to write, format or fix a changelog entry or a CHANGELOG.md section for a code change or a version. Do not use for commit messages, pull request descriptions or user-facing release announcements."

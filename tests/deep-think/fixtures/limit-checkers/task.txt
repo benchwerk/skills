@@ -1,0 +1,1 @@
+make_checkers([1, 10])[0](5) returns True but 5 is above the first limit of 1. All checkers behave like the last one. Please fix it.

@@ -1,0 +1,12 @@
+SEE_A000: NO
+
+a300-draft-grant-proposal: Use when the user asks to draft a grant proposal. Covers the
+a310-translate-recipe: Use when the user asks to translate a recipe. Works from the
+a320-compare-poem: Use when the user asks to compare a poem. Gives a short repo
+a330-plan-poem: Use when the user asks to plan a poem. Gives a short report 
+a340-compare-fund-report: Use when the user asks to compare a fund report. Gives a sho
+a350-plan-knitting-pattern: Use when the user asks to plan a knitting pattern. Works fro
+a360-draft-contract: Use when the user asks to draft a contract. Covers the usual
+a370-explain-fund-report: Use when the user asks to explain a fund report. Gives a sho
+a380-check-playlist: Use when the user asks to check a playlist. Gives a short re
+a390-audit-timesheet: Use when the user asks to audit a timesheet. Works from the 

@@ -1,0 +1,1 @@
+average([1, 2]) returns 1 instead of 1.5. Please fix it. Also add round_price(amount) to app/money.py: it takes a Decimal and rounds it to cents, with halves going up (Decimal('0.125') gives Decimal('0.13')).

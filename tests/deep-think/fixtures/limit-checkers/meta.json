@@ -1,0 +1,7 @@
+{
+ "id": "limit-checkers",
+ "primary": "app/validators.py::make_checkers",
+ "second": "app/handlers.py::make_greeters",
+ "cannot_fail": null,
+ "trap": null
+}

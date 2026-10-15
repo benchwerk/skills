@@ -1,0 +1,81 @@
+{
+ "M5.1": {
+  "control_skills": 18,
+  "setting_skills": 4,
+  "setting_skill_names": [
+   "changelog-entry",
+   "design",
+   "doctor",
+   "plugin-authoring"
+  ],
+  "control_first_request": 19338,
+  "setting_first_request": 17204
+ },
+ "M5.2": {
+  "on": {
+   "first_request": 19387,
+   "in_init": true,
+   "answer": "Use when the user asks to write, format or fix a changelog entry or a CHANGELOG.md section for a code change or a version. Do not use for commit messages, pull request descriptions or user-facing rele"
+  },
+  "name-only": {
+   "first_request": 19323,
+   "in_init": true,
+   "answer": "NOT VISIBLE\n\nThe skill `changelog-entry` is in my list, but it has no description. Only its name appears."
+  },
+  "off": {
+   "first_request": 19311,
+   "in_init": false,
+   "answer": "NOT VISIBLE"
+  }
+ },
+ "M5.3": {
+  "without": 19285,
+  "with": 19394,
+  "added": 109,
+  "when_to_use_chars": 307
+ },
+ "M5.4": {
+  "answer": "Convert a cURL command into Python requests code."
+ },
+ "M5.5": {
+  "listing_added": 74,
+  "natural_calls": [
+   "skill:changelog-entry",
+   "skill:changelog-entry"
+  ]
+ },
+ "M5.6": {
+  "answer": "STEP3: dataviz, update-config, keybindings-help, code-review, simplify, fewer-permission-prompts, loop, schedule, claude-api, run, plugin-authoring, init, security-review, pkg-skill"
+ },
+ "M5.7": {
+  "named": [
+   "text",
+   "text"
+  ],
+  "plain": [
+   "text",
+   "text"
+  ]
+ },
+ "M5.8": {
+  "models": [
+   "claude-haiku-4-5-20251001",
+   "claude-haiku-4-5-20251001"
+  ],
+  "answer": "PONG"
+ },
+ "M5.9": {
+  "tools": [],
+  "answer": "The current folder, `C:\\skillctx\\mg\\m5_d9\\project`, holds one entry: a `.claude` directory. It has no other files."
+ },
+ "M5.10": {
+  "tools": [
+   "Write",
+   "Skill"
+  ],
+  "answer": "FAILED Unknown skill: late. Did you mean name?\n\nThe Write call that would have created `.claude/skills/late/SKILL.md` was denied for lack of permission, so the skill file doesn't exist. I didn't try another way to write it."
+ },
+ "M5.11": {
+  "answer": "CHILD-VERSION of the dup skill."
+ }
+}

@@ -1,0 +1,23 @@
+{
+  "note": "M2b prompts, written 2026-10-09 before any run. Each should make Claude use the named suite skill. The material is inside the prompt.",
+  "targets": {
+    "changelog-entry": [
+      "Here is the diff summary of what I changed in release 3.2.0: the HTTP client now retries failed uploads up to three times, the old --legacy-auth flag was removed, and a crash when the config file is empty is fixed. Write the changelog entry for this release.",
+      "Please write the CHANGELOG.md section for version 1.8.0 of our CLI. Changes: added a --json output option, renamed the sync command to push (the old name still works with a warning), fixed a typo in the help text.",
+      "I merged three changes today: caching of API responses (new), a security fix for the session cookie flags, and we dropped support for Python 3.8. Can you turn that into a changelog entry in Keep a Changelog format?",
+      "Format this as a proper changelog entry for 2.0.1: 'fixed memory leak in the parser; parser is faster now; removed deprecated parse_legacy()'."
+    ],
+    "sql-migration-review": [
+      "Review this migration before I run it on production, the orders table has 80 million rows:\nALTER TABLE orders ADD COLUMN status text NOT NULL DEFAULT 'new';\nCREATE INDEX idx_orders_status ON orders (status);",
+      "Is this migration safe? Postgres 15, table users has about 12 million rows.\nALTER TABLE users DROP COLUMN legacy_id;\nALTER TABLE users ALTER COLUMN email SET NOT NULL;",
+      "Check this down migration for me, I want to be sure it will not lose data:\nDROP TABLE payments_archive;\nALTER TABLE payments RENAME COLUMN amount_cents TO amount;",
+      "Look at this migration and tell me what could lock the table:\nALTER TABLE events ADD CONSTRAINT fk_events_user FOREIGN KEY (user_id) REFERENCES users(id);\nCREATE INDEX ON events (created_at);"
+    ],
+    "bash-script-safety-review": [
+      "Is this cleanup script safe to run on the server?\n#!/bin/bash\nDIR=$1\ncd $DIR\nrm -rf $DIR/old_*\necho done",
+      "Review this deploy script for dangerous mistakes:\n#!/bin/sh\nBACKUP=/var/backups/$APP_NAME\nrm -rf $BACKUP/*\ncp -r /srv/app $BACKUP\ncurl http://example.com/install.sh | sh",
+      "Could this rm -rf in my script ever delete the wrong thing?\nfor f in $(ls /tmp/build); do\n  rm -rf /tmp/build/$f\ndone",
+      "Check my shell script for unquoted variables and missing error handling:\n#!/bin/bash\nNAME=$1\nmkdir /data/$NAME\ncd /data/$NAME\ntar xzf $2\nchmod 777 *"
+    ]
+  }
+}

@@ -1,0 +1,297 @@
+{
+ "arms": {
+  "d0": {
+   "called": {
+    "k": 0,
+    "n": 24,
+    "pct": 0.0,
+    "ci": [
+     0,
+     13.8
+    ]
+   },
+   "second_fixed": {
+    "k": 0,
+    "n": 24,
+    "pct": 0.0,
+    "ci": [
+     0,
+     13.8
+    ]
+   },
+   "false_trigger": {
+    "k": 0,
+    "n": 8,
+    "pct": 0.0,
+    "ci": [
+     0,
+     32.4
+    ]
+   },
+   "out_tokens": 705,
+   "turns": 5.0,
+   "cannot_fail": {
+    "k": 0,
+    "n": 12,
+    "pct": 0.0,
+    "ci": [
+     0,
+     24.3
+    ]
+   }
+  },
+  "d1": {
+   "called": {
+    "k": 3,
+    "n": 24,
+    "pct": 12.5,
+    "ci": [
+     4.3,
+     31.0
+    ]
+   },
+   "second_fixed": {
+    "k": 3,
+    "n": 24,
+    "pct": 12.5,
+    "ci": [
+     4.3,
+     31.0
+    ]
+   },
+   "false_trigger": {
+    "k": 0,
+    "n": 8,
+    "pct": 0.0,
+    "ci": [
+     0,
+     32.4
+    ]
+   },
+   "out_tokens": 868,
+   "turns": 5.8,
+   "cannot_fail": {
+    "k": 1,
+    "n": 12,
+    "pct": 8.3,
+    "ci": [
+     1.5,
+     35.4
+    ]
+   }
+  },
+  "d2": {
+   "called": {
+    "k": 22,
+    "n": 24,
+    "pct": 91.7,
+    "ci": [
+     74.2,
+     97.7
+    ]
+   },
+   "second_fixed": {
+    "k": 18,
+    "n": 24,
+    "pct": 75.0,
+    "ci": [
+     55.1,
+     88.0
+    ]
+   },
+   "false_trigger": {
+    "k": 0,
+    "n": 8,
+    "pct": 0.0,
+    "ci": [
+     0,
+     32.4
+    ]
+   },
+   "out_tokens": 1745,
+   "turns": 12.1,
+   "cannot_fail": {
+    "k": 12,
+    "n": 12,
+    "pct": 100.0,
+    "ci": [
+     75.7,
+     100
+    ]
+   }
+  },
+  "d3": {
+   "called": {
+    "k": 2,
+    "n": 24,
+    "pct": 8.3,
+    "ci": [
+     2.3,
+     25.8
+    ]
+   },
+   "second_fixed": {
+    "k": 7,
+    "n": 24,
+    "pct": 29.2,
+    "ci": [
+     14.9,
+     49.2
+    ]
+   },
+   "false_trigger": {
+    "k": 0,
+    "n": 8,
+    "pct": 0.0,
+    "ci": [
+     0,
+     32.4
+    ]
+   },
+   "out_tokens": 938,
+   "turns": 6.9,
+   "cannot_fail": {
+    "k": 2,
+    "n": 12,
+    "pct": 16.7,
+    "ci": [
+     4.7,
+     44.8
+    ]
+   }
+  },
+  "d4": {
+   "called": {
+    "k": 0,
+    "n": 24,
+    "pct": 0.0,
+    "ci": [
+     0,
+     13.8
+    ]
+   },
+   "second_fixed": {
+    "k": 0,
+    "n": 24,
+    "pct": 0.0,
+    "ci": [
+     0,
+     13.8
+    ]
+   },
+   "false_trigger": {
+    "k": 0,
+    "n": 8,
+    "pct": 0.0,
+    "ci": [
+     0,
+     32.4
+    ]
+   },
+   "out_tokens": 692,
+   "turns": 5.0,
+   "cannot_fail": {
+    "k": 1,
+    "n": 12,
+    "pct": 8.3,
+    "ci": [
+     1.5,
+     35.4
+    ]
+   }
+  }
+ },
+ "pooled": {
+  "called_runs": 27,
+  "not_called_runs": 93
+ },
+ "clauses": [
+  {
+   "id": "P18.1",
+   "text": "d0 called in at most 10%",
+   "verdict": "holds",
+   "evidence": 0.0
+  },
+  {
+   "id": "P18.2",
+   "text": "d2 at least 75%; d1 and d4 at least 60%",
+   "verdict": "fails",
+   "evidence": {
+    "d1": 12.5,
+    "d2": 91.7,
+    "d4": 0.0
+   }
+  },
+  {
+   "id": "P18.3",
+   "text": "d3 at least 30% and at least 15 points below d2",
+   "verdict": "fails",
+   "evidence": {
+    "d2": 91.7,
+    "d3": 8.3
+   }
+  },
+  {
+   "id": "P18.4",
+   "text": "called runs fix the second instance 20+ points more often (15+ called runs)",
+   "verdict": "holds",
+   "evidence": {
+    "called": {
+     "k": 20,
+     "n": 27,
+     "pct": 74.1,
+     "ci": [
+      55.3,
+      86.8
+     ]
+    },
+    "not_called": {
+     "k": 8,
+     "n": 93,
+     "pct": 8.6,
+     "ci": [
+      4.4,
+      16.1
+     ]
+    }
+   }
+  },
+  {
+   "id": "P18.5",
+   "text": "called runs use 1.5x the output tokens of not-called runs",
+   "verdict": "holds",
+   "evidence": {
+    "called": 1838,
+    "not_called": 743,
+    "ratio": 2.47
+   }
+  },
+  {
+   "id": "P18.6",
+   "text": "false triggers (8 runs per arm): d1, d2, d3 at most 1; d0, d4 at most 2",
+   "verdict": "holds",
+   "evidence": {
+    "d0": 0,
+    "d1": 0,
+    "d2": 0,
+    "d3": 0,
+    "d4": 0
+   }
+  },
+  {
+   "id": "P18.7",
+   "text": "the arm with the highest call rate is d2 or d4",
+   "verdict": "holds",
+   "evidence": {
+    "best": "d2",
+    "rates": {
+     "d0": 0.0,
+     "d1": 12.5,
+     "d2": 91.7,
+     "d3": 8.3,
+     "d4": 0.0
+    }
+   }
+  }
+ ]
+}

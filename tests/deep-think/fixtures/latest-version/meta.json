@@ -1,0 +1,7 @@
+{
+ "id": "latest-version",
+ "primary": "app/versions.py::latest",
+ "second": "app/releases.py::sort_releases",
+ "cannot_fail": "tests/test_versions.py::test_latest_is_callable",
+ "trap": "the third-party 'packaging' library is not available and must not be added"
+}

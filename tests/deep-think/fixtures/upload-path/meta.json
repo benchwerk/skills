@@ -1,0 +1,7 @@
+{
+ "id": "upload-path",
+ "primary": "app/uploads.py::upload_path",
+ "second": "app/attachments.py::attachment_path",
+ "cannot_fail": "tests/test_uploads.py::test_module_has_upload_dir",
+ "trap": "posixpath.join discards the folder when the second part is absolute"
+}

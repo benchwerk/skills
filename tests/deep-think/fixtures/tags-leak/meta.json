@@ -1,0 +1,7 @@
+{
+ "id": "tags-leak",
+ "primary": "app/tags.py::add_tag",
+ "second": "app/errors.py::collect_error",
+ "cannot_fail": "tests/test_tags.py::test_module_imports",
+ "trap": null
+}

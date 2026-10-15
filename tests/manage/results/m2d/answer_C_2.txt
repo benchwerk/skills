@@ -1,0 +1,12 @@
+SEE_A000: YES
+
+a300-draft-grant-proposal: NONE
+a310-translate-recipe: NONE
+a320-compare-poem: NONE
+a330-plan-poem: NONE
+a340-compare-fund-report: NONE
+a350-plan-knitting-pattern: NONE
+a360-draft-contract: NONE
+a370-explain-fund-report: NONE
+a380-check-playlist: NONE
+a390-audit-timesheet: NONE

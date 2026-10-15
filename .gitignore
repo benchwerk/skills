@@ -1,0 +1,16 @@
+# Allow-list: nothing is published unless it is named here.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/LICENSE
+!/LICENSE-DATA
+!/SUITE.md
+!/skills/
+!/skill-writer/
+!/tests/
+# never, anywhere
+.env
+*.key
+*.pem
+__pycache__/

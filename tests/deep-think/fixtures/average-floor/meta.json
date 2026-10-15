@@ -1,0 +1,7 @@
+{
+ "id": "average-floor",
+ "primary": "app/stats.py::average",
+ "second": "app/report.py::percent",
+ "cannot_fail": null,
+ "trap": "round() on Decimal rounds half to even; the requirement is half up"
+}

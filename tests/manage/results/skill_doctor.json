@@ -1,0 +1,14 @@
+{
+ "suite": {
+  "answer": "Skills loaded this session\n\n  skill                      source           context  7d tokens   uses  last used\n  csv-cleaning-plan          projectSettings      ~80          -     0\u00d7  never\n  html-accessibility-audit   projectSettings      ~90          -     0\u00d7  never\n  meeting-notes-summary      projectSettings      ~80          -     0\u00d7  never\n  python-docstrings          projectSettings      ~60          -     0\u00d7  never\n  api-error-check            projectSettings      ~90          -    12\u00d7  today\n  api-versioning-check       projectSettings      ~80          -    14\u00d7  today\n  bash-script-safety-review  projectSettings      ~90          -    20\u00d7  today\n  changelog-entry            projectSettings      ~80          -    27\u00d7  today\n  commit-message-format      projectSettings      ~70          -    15\u00d7  today\n  html-seo-audit             projectSettings      ~90          -    16\u00d7  today\n  pull-request-description   projectSettings      ~70          -    16\u00d7  today\n  release-notes-from-log     projectSettings      ~90          -    16\u00d7  today\n  shell-portability-check    projectSettings      ~90          -    21\u00d7  today\n  sql-migration-review       projectSettings      ~80          -     6\u00d7  today\n  sql-query-tuning           projectSettings      ~70          -    17\u00d7  today\n\n  context = this skill's one-line listing in the system prompt, included every turn\n  (dash = not in the current listing, costs nothing; full SKILL.md loads only when it runs)\n  7d tokens = tokens attributed to the skill over the last 7 days of sessions on this machine\n\n4 skills loaded but never invoked. Each one adds to the system prompt every turn. Disable in /skills, or remove from .claude/skills.",
+  "tools": [],
+  "first_request": 0,
+  "meter": null
+ },
+ "deep-think-v3": {
+  "answer": "Skills loaded this session\n\n  skill       source           context  7d tokens   uses  last used\n  deep-think  projectSettings     ~190          -   157\u00d7  today\n\n  context = this skill's one-line listing in the system prompt, included every turn\n  (dash = not in the current listing, costs nothing; full SKILL.md loads only when it runs)\n  7d tokens = tokens attributed to the skill over the last 7 days of sessions on this machine\n\nAll loaded skills have been used at least once.",
+  "tools": [],
+  "first_request": 0,
+  "meter": null
+ }
+}

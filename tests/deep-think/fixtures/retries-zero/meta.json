@@ -1,0 +1,7 @@
+{
+ "id": "retries-zero",
+ "primary": "app/config.py::get_retries",
+ "second": "app/logging_config.py::get_verbosity",
+ "cannot_fail": "tests/test_config.py::test_defaults_exist",
+ "trap": null
+}

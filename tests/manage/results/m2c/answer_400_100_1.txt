@@ -1,0 +1,40 @@
+a000-estimate-meal-plan: Use when the user asks to estimate a meal plan. Do not use f
+a010-rewrite-budget: Use when the user asks to rewrite a budget. Covers the usual
+a020-estimate-chess-opening: Use when the user asks to estimate a chess opening. Asks for
+a030-convert-survey: Use when the user asks to convert a survey. Works from the t
+a040-rewrite-lab-report: Use when the user asks to rewrite a lab report. Works from t
+a050-summarise-recipe: Use when the user asks to summarise a recipe. Do not use for
+a060-review-garden-layout: Use when the user asks to review a garden layout. Do not use
+a070-format-chess-opening: Use when the user asks to format a chess opening. Covers the
+a080-outline-newsletter: Use when the user asks to outline a newsletter. Works from t
+a090-review-chess-opening: Use when the user asks to review a chess opening. Do not use
+a100-format-newsletter: Use when the user asks to format a newsletter. Gives a short
+a110-compare-resume: Use when the user asks to compare a resume. Covers the usual
+a120-translate-bike-repair: Use when the user asks to translate a bike repair. Asks for 
+a130-draft-board-game-rules: NONE
+a140-convert-itinerary: NONE
+a150-compare-survey: NONE
+a160-check-fund-report: NONE
+a170-format-press-release: NONE
+a180-validate-poem: NONE
+a190-plan-lab-report: NONE
+a200-draft-moving-checklist: NONE
+a210-validate-customer-email: NONE
+a220-check-resume: NONE
+a230-format-itinerary: NONE
+a240-translate-shift-roster: NONE
+a250-outline-poem: NONE
+a260-summarise-tax-checklist: NONE
+a270-outline-playlist: NONE
+a280-review-recipe: NONE
+a290-estimate-wedding-schedule: NONE
+a300-draft-grant-proposal: NONE
+a310-translate-recipe: NONE
+a320-compare-poem: NONE
+a330-plan-poem: NONE
+a340-compare-fund-report: NONE
+a350-plan-knitting-pattern: NONE
+a360-draft-contract: NONE
+a370-explain-fund-report: NONE
+a380-check-playlist: NONE
+a390-audit-timesheet: NONE

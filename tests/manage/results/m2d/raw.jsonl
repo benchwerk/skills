@@ -1,0 +1,4 @@
+{"config": "B", "rep": 1, "visible": 10, "none": 0, "unknown": 0, "sees_a000": "NO", "first_request_total": 27008, "rate_limit": {"status": "allowed", "five_hour": 0.89, "seven_day": 0.73}}
+{"config": "B", "rep": 2, "visible": 10, "none": 0, "unknown": 0, "sees_a000": "NO", "first_request_total": 27008, "rate_limit": {"status": "allowed", "five_hour": 0.89, "seven_day": 0.73}}
+{"config": "C", "rep": 1, "visible": 0, "none": 10, "unknown": 0, "sees_a000": "YES", "first_request_total": 28555, "rate_limit": {"status": "allowed_warning", "five_hour": 0.9, "seven_day": 0.73}}
+{"config": "C", "rep": 2, "visible": 0, "none": 10, "unknown": 0, "sees_a000": "YES", "first_request_total": 28555, "rate_limit": {"status": "allowed_warning", "five_hour": 0.9, "seven_day": 0.73}}

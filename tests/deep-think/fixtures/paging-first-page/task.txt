@@ -1,0 +1,1 @@
+The first page of search results comes back empty: page_slice(items, 1, 10) skips the first ten items. Please fix it.

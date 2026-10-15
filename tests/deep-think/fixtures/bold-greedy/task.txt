@@ -1,0 +1,1 @@
+bold_text('<b>a</b> and <b>b</b>') returns 'a</b> and <b>b' but should return 'a'. Please fix it.
